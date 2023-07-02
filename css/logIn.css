@@ -67,3 +67,13 @@ form {
     backdrop-filter: blur(10px);
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 }
+
+
+#registration-form {
+    width: auto;
+    border-radius: 0;
+
+}
+
+#registration-form::placeholder {
+}
