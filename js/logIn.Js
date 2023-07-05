@@ -1,13 +1,6 @@
-
-
-function setUser(email, password) {
-    localStorage.setItem('nombre', email);
-    localStorage.setItem('password', password);
-}
-
 function getUser() {
-    let usuario = localStorage.getItem("nombre")
-    let usuarioObjeto = JSON.stringify(usuario)
+    let usuario = localStorage.getItem("usuarios")
+    let usuarioObjeto = JSON.parse(usuario)
     return usuarioObjeto
 }
 
@@ -15,7 +8,7 @@ function getUser() {
 let login = `
         <div class="main">
             <img class="welcomePhoto" src="../img/Bienvenido!!.png" alt="">
-            <form>
+            <form class="forms">
                 <div class="mb-3 forms-general">
                 <label for="exampleInputEmail1" class="form-label">Usuario</label>
                 <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -60,21 +53,32 @@ function registerAlert() {
     if (result.isConfirmed) {
       const name = document.getElementById('swal-input-username').value;
       const password = document.getElementById('swal-input-password').value
-      if (name )
-        if (checkUser(name)){
+      check = localStorage.getItem('usuarios')
+      if (check == null && name !=""  && password != "") {newUser(name, password)}
+      else {
+        if (check != null && name !=""  && password != "") {
+          if (checkUser(name)){
+            Swal.fire({
+              icon: 'error',
+              title: 'Error',
+              text: `El usuario ${name} ya existe`,
+            })
+          } else {
+            newUser(name, password);
+            swalWithBootstrapButtons.fire(
+              '¡Se ha registrado correctamente!',
+              `Gracias por registrarte ${name}`,
+              'success'
+            );
+          }
+        } else {
           Swal.fire({
             icon: 'error',
             title: 'Error',
-            text: `El usuario ${name} ya existe`,
+            text: `La contraseña o el usuario estan vacios`,
           })
-        } else {
-          newUser(name, password);
-          swalWithBootstrapButtons.fire(
-            '¡Se ha registrado correctamente!',
-            `Gracias por registrarte ${name}`,
-            'success'
-          );
         }
+      }
     }
   });
 }
@@ -116,11 +120,67 @@ function checkUser(user) {
   let safeData = localStorage.getItem("usuarios");
   let objData = JSON.parse(safeData)
   for (let i = 0; i < objData.length; i++) {
-    if (user === objData[i].username) {
+    if (user == objData[i].username) {
       return true
     }
   } return false
 }
 
+function validate(data,users) {
+  if(users !=null)
+  {
+    let array = [];
+    users.forEach(u=>{
+        array.push(u.username);
+    })
+    return array.includes(data.username);
+  }
+  else
+  {
+    return false;
+  }
+  
+}
 
+document.querySelector(".forms").addEventListener("submit", (e) => {
+    e.preventDefault()
+    const data = {
+      username: document.getElementById('exampleInputEmail1').value,
+      password: document.getElementById('exampleInputPassword1').value,
+    };
+    let users = getUser()
+    if(validate(data,users)){
 
+      for (let i = 0; i < users.length; i++) {
+        if (users[i].password == data.password) {
+
+          sessionStorage.setItem("user", JSON.stringify(data));
+          Swal.fire({
+            position: 'top-start',
+            icon: 'success',
+            title: 'Se logueo correctamente',
+            showConfirmButton: false,
+            timer: 1500,
+            width: '300px',
+          }).then(() => {
+            window.location.href = '../index.html'
+          })
+          break
+        }
+        else {
+          Swal.fire({
+            icon: 'error',
+            title: 'Error',
+            text: `La contraseña es incorrecta`,
+          })
+        }
+      }}
+      
+    else{
+      Swal.fire({
+        icon: 'error',
+        title: 'Error',
+        text: `Nombre de usuario incorrecto`,
+      })
+    } 
+  })
