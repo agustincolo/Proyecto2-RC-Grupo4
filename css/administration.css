@@ -1,4 +1,5 @@
 body {
-    background: radial-gradient(at center, #702B63, #4C166C, #2B0C77, #0A067F);
-   
+     /*background: radial-gradient(at center, #702B63, #4C166C, #2B0C77, #0A067F); */
+    background: linear-gradient(to bottom left, blueviolet, rgb(153, 74, 226), rgb(179, 111, 243), rgb(117, 117, 247), rgb(67, 67, 253), blue);
+    background-attachment: fixed;
 }
