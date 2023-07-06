@@ -1,6 +1,6 @@
 body {
     background: radial-gradient(at center, #702B63, #4C166C, #2B0C77, #0A067F);
-   
+    background-attachment: fixed;
 }
 
 .main {
