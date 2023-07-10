@@ -10,8 +10,8 @@ body{
     padding: 0 35px;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    background: rgb(180, 94, 180);
+    background: linear-gradient(to bottom left, rgb(51, 11, 88), rgb(95, 43, 143), rgb(106, 63, 146), rgb(125, 51, 134), rgb(95, 24, 104), rgb(33, 0, 36));
+    background-attachment: fixed;
 }
 
 .wrapper .carrousel{
