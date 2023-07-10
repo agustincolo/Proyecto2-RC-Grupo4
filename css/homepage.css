@@ -75,6 +75,9 @@ body{
     margin-left: 0px;
 }
 
+.logIn {
+    font-size: 1.2rem !important;
+}
 
 @media screen and (max-widht: 900px){
     .carrousel img{
