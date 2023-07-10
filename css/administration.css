@@ -1,5 +1,51 @@
 body {
-     /* background: radial-gradient(at left, #702B63, #4C166C, #2B0C77, #0A067F); */
     background: linear-gradient(to bottom left, rgb(51, 11, 88), rgb(95, 43, 143), rgb(106, 63, 146), rgb(125, 51, 134), rgb(95, 24, 104), rgb(33, 0, 36));
     background-attachment: fixed;
+}
+
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+table {
+    border: 2px solid black;
+}
+
+td, th {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.modal-content {
+    background: transparent;
+    border-radius: 20px 0 0 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.star {
+    background: transparent !important;
+    backdrop-filter: blur(20px);
+    /* border: 2px solid rgb(140, 0, 255) !important; */
+    border: 2px solid rgb(255, 255, 255) !important;
+}
+
+
+.fa-circle-check {
+    color: green !important;
+}
+
+.fa-circle-xmark {
+    color: red !important
+}
+
+#btnCrear {
+    background-color: rgb(132, 0, 255);
+    border-color: rgba(0, 0, 0, 0.185);
 }
