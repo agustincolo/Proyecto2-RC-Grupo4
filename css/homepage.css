@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    display: block;
+    padding: 0 35px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(180, 94, 180);
+}
+
+.wrapper .carrousel{
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.carrousel.dragging{
+    cursor: grab;
+    scroll-behavior: auto;
+}
+
+.carrousel.dragging img{
+    pointer-events: none;
+}
+
+.wrapper{
+    max-width: 1200px;
+    position: relative;
+}
+
+.wrapper i{
+    top: 50%;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    position: absolute;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 46px;
+    background: wheat;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.wrapper i:first-child{
+    left: -20px;
+    display: none;
+}
+
+.wrapper i:last-child{
+    right: -20px;
+}
+
+.carrousel img{
+    height: 340px;
+    object-fit: cover;
+    border-radius: 1%;
+    margin-left: 10px;
+    width: calc(100% / 4);
+}
+
+.carrousel img:first-child{
+    margin-left: 0px;
+}
+
+
+@media screen and (max-widht: 900px){
+    .carrousel img{
+        width: calc(100% / 2);
+    }
+}
+
+@media screen and (max-widht: 900px){
+    .carrousel img{
+        width: 100%;
+    }
+}
+
