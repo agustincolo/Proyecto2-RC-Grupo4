@@ -71,3 +71,7 @@ carrousel.addEventListener("mouseleave", dragStop);
 carrousel.addEventListener("touchend", dragStop);
 
 
+const logIn = document.querySelector(".logIn")
+let users = JSON.parse(sessionStorage.getItem('user'))
+if (users != null) logIn.textContent = `Bienvenido ${users.username}`
+else logIn.textContent = `MBP PLUS`
