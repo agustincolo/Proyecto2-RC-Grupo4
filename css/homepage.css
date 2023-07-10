@@ -47,7 +47,8 @@ body{
     font-size: 1.2rem;
     text-align: center;
     line-height: 46px;
-    background: wheat;
+    background: transparent;
+    backdrop-filter: blur(20px);
     border-radius: 50%;
     transform: translateY(-50%);
 }
