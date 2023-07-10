@@ -1,49 +1,71 @@
-$(document).ready(function() {
+const carrousel = document.querySelector(".carrousel"); 
+firstImg = carrousel.querySelectorAll("img")[0];
+arrowIcons = document.querySelectorAll(".wrapper i");
 
-  $("#myNavbar .navbar-toggler").on("click", function(){
-    $("#myNavbar .navbar-collapse").toggleClass("show");
-  });
-  
+let isDragStart = false, isDragging = false, prevPageX, prevScrollLeft, positionDiff; 
+let firstImgWidht = firstImg.clientWidth + 14; 
+let scrollWidth = carrousel.scrollWidth - carrousel.clientWidth;
+
+const showHideIcons = () =>{
+    let scrollWidth = carrousel.scrollWidth - carrousel.clientWidth;
+    arrowIcons[0].style.display = carrousel.scrollLeft == 0 ? "none" : "block"; 
+    arrowIcons[1].style.display = carrousel.scrollLeft == scrollWidth ? "none" : "block";
+}
+
+arrowIcons.forEach(icon => {
+    icon.addEventListener("click", ()=>{
+        carrousel.scrollLeft += icon.id == "left" ? -firstImgWidht : firstImgWidht; 
+        setTimeout(() => showHideIcons(), 60);
+    })
 });
 
+const autoSlide = () =>{
 
-//Main: cards 
-let card = `
-<div class="row row-cols-1 row-cols-md-3 g-4">
-<div class="col">
-  <div class="card h-100">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    </div>
-  </div>
-</div>
-<div class="col">
-  <div class="card h-100">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a short card.</p>
-    </div>
-  </div>
-</div>
-<div class="col">
-  <div class="card h-100">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-    </div>
-  </div>
-</div>
-<div class="col">
-  <div class="card h-100">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-    </div>
-  </div>
-</div>
-</div>`
+    if(carrousel.scrollLeft == (carrousel.scrollWidth - carrousel.clientWidth)) return;
+
+    positionDiff = Math.abs(positionDiff); 
+    let firstImgWidht = firstImg.clientWidth + 14;
+    let valDifference = firstImgWidht - positionDiff;
+
+    if(carrousel.scrollLeft > prevScrollLeft){
+        return carrousel.scrollLeft += positionDiff > firstImgWidht / 3 ? valDifference : -positionDiff;    
+    }
+    carrousel.scrollLeft -= positionDiff > firstImgWidht / 3 ? valDifference : -positionDiff;
+    
+}
+
+
+const dragStart = () =>{
+    isDragStart = true;
+    prevPageX = e.pageX || e.touchend[0].pageX;
+    prevScrollLeft = carrousel.scrollLeft;
+}
+
+const dragging = (e) =>{
+    if(!isDragStart) return;
+    e.preventDefault();
+    isDragging = true; 
+    carrousel.classList.add("dragging");
+    positionDiff = (e.pageX || e.touched[0].pageX)- prevPageX; 
+    carrousel.scrollLeft = prevScrollLeft - positionDiff; 
+    showHideIcons();
+}
+
+const dragStop = () =>{
+    isDragStart = false;
+    carrousel.classList.remove("dragging");
+
+    if(!isDragging) return; 
+    isDragging = false;
+    autoSlide();
+}
+
+carrousel.addEventListener("mousedown", dragStart);
+carrousel.addEventListener("touchstart", dragStart);
+
+carrousel.addEventListener("mousemove", dragging);
+carrousel.addEventListener("touchmove", dragging);
+
+carrousel.addEventListener("mouseup", dragStop);
+carrousel.addEventListener("mouseleave", dragStop);
+carrousel.addEventListener("touchend", dragStop);
