@@ -4,6 +4,10 @@ body {
     background-attachment: fixed;
 }
 
+.logoImg {
+    width: 4%;
+}
+
 .main {
     display: flex;
     justify-content: center;
@@ -59,7 +63,6 @@ input {
 }
 
 
-
 form {
     display: inline-block;
     width: 30%;
@@ -76,5 +79,40 @@ form {
 
 }
 
-#registration-form::placeholder {
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+
+.search_button {
+    width: 90%;
+}
+
+@media screen and (min-width: 100px) and (max-width:800px){
+    footer{
+        width: 100%;
+    }
+    .welcomePhoto{
+        display: none;
+    }
+    .forms{
+        width: 100%;
+        margin-top: 10%;
+    }
+    .nav {
+        width: 100%;   
+    }
+    .logoImg {
+        width: 15%;
+    }
+    
+}
+
+@media screen and (min-width: 800px){
+    footer{
+        width: 100%;
+    }
+
 }
