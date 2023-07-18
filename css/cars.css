@@ -14,6 +14,7 @@
 body {
 	background: var(--fondo);
 	font-family: 'Open Sans', sans-serif;
+	background: radial-gradient(at center, #30112a, #1d072b, #160541, #040146);
 }
 
 main{
