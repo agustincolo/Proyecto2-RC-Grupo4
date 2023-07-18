@@ -5,7 +5,8 @@
       "year": "2006",
       "director": "John Lasseter",
       "type": "Animada",
-      "picture": "./img/cars.jpg"
+      "picture": "./img/cars.jpg",
+      "url" : "./paginas/cars.html"
     },
     {
       "id": 5,
