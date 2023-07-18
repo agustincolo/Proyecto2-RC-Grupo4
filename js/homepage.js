@@ -26,20 +26,20 @@ function slider (flick) {
 };
 
 
-let movies = []; 
+let romance = []; 
 let action = [];
 let animated = [];
 let scifi = [];
 
 
 //Pasamos la informacion del JSON y con los datos obtenidos construimos las cards
-fetch('./js/movies.json')
+fetch('./js/romance.json')
 .then(data => data.json())
 .then(result => {
     //Concatenar en el array movies las peliculas de una categoria
-    movies = movies.concat(result);
+    romance = romance.concat(result);
     //Construir una funcion que tome estas peliculas y las coloque en las cards
-    cardSlide(movies, "#myCarousel .carousel-inner");
+    cardSlide(romance, "#myCarousel .carousel-inner");
 })
 .catch(error => {
     //Devuelve un error si hay algun problema con los datos
