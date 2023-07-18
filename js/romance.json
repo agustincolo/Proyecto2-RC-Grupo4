@@ -1,0 +1,74 @@
+[
+    {
+      "id": 23,
+      "name": "Barbie",
+      "year": "2023",
+      "director": "Greta Gerwig",
+      "type": "Romance",
+      "picture": "./img/barbie.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Indiana Jones",
+      "year": "1981",
+      "director": "Steven Spielberg",
+      "type": "Romance",
+      "picture" : "./img/indiana jones.jpg"
+    },
+    {
+      "id": 15,
+      "name": "John Wick 4",
+      "year": "2023",
+      "director": "Chad Stahelski",
+      "type": "Romance",
+      "picture" : "./img/jhon wick.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Transformers",
+      "year": "2007",
+      "director": "Michael Bay",
+      "type": "Romance",
+      "picture" : "./img/transformers.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Uncharted",
+      "year": "2022",
+      "director": "Ruben Fleischer",
+      "type": "Romance",
+      "picture" : "./img/uncharted.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Top Gun",
+      "year": "2022",
+      "director": "Joseph Kosinski",
+      "type": "Romance",
+      "picture" : "./img/top gun.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Moonfall",
+      "year": "2022",
+      "director": "Roland Emmerich",
+      "type": "Romance",
+      "picture" : "./img/moonfall.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Avatar 2",
+      "year": "2022",
+      "director": "James Cameron",
+      "type": "Romance",
+      "picture" : "./img/avatar.jpg"
+    },
+    {
+      "id": 21,
+      "name": "El llanero Solitario",
+      "year": "2013",
+      "director": "NGore Verbinski",
+      "type": "Romance",
+      "picture" : "./img/el llanero solitario.jpg"
+    }
+  ]

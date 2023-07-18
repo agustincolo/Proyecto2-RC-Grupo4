@@ -1,0 +1,82 @@
+[
+    {
+      "id": 4,
+      "name": "Cars 2",
+      "year": "2006",
+      "director": "John Lasseter",
+      "type": "Animada",
+      "picture": "./img/cars.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Frozen",
+      "year": "2014",
+      "director": "Jennifer Lee, Chris Buck",
+      "type": "Animada",
+      "picture" : "./img/Frozen.jpg"
+    },
+    {
+      "id": 6,
+      "name": "El gato con botas: el ultimo deseo",
+      "year": "2023",
+      "director": "Joel Crawford",
+      "type": "Animada",
+      "picture" : "./img/el gato con botas.jpg"
+    },
+    {
+      "id": 6,
+      "name": "La Sirenita",
+      "year": "1989",
+      "director": " Rob Minkoff",
+      "type": "Animada",
+      "picture" : "./img/lasirenita.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Ratatouille",
+      "year": "2007",
+      "director": "Brad Bird",
+      "type": "Animada",
+      "picture" : "./img/ratatouille.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Madagascar",
+      "year": "2005",
+      "director": "Tom McGrath, Eric Darnell",
+      "type": "Animada",
+      "picture" : "./img/madagascar.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Monster Inc",
+      "year": "2001",
+      "director": " Pete Docter",
+      "type": "Animada",
+      "picture" : "./img/monsterInc.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Shreck Tercero",
+      "year": "2007",
+      "director": "Chris Miller",
+      "type": "Animada",
+      "picture" : "./img/shreck 3.jpg"
+    },
+    {
+      "id": 11,
+      "name": "El gato con botas: el ultimo deseo",
+      "year": "2023",
+      "director": "Joel Crawford",
+      "type": "Animada",
+      "picture" : "./img/el gato con botas.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Enredados",
+      "year": "2011",
+      "director": "Nathan Greno, Byron Howard",
+      "type": "Animada",
+      "picture" : "./img/enredados.jpg"
+    }
+  ]

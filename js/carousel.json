@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "name": "X-men",
+      "year": "2014",
+      "director": "Bryan Singer",
+      "type": "Acción",
+      "picture": "./img/xmen.jpg"
+    },
+    {
+      "id": 2,
+      "name": "300",
+      "year": "2009",
+      "director": "Zack Snyder",
+      "type": "Accion",
+      "picture": "./img/300.jpg"
+    },
+    {
+      "id": 3,
+      "name": "up: una aventura de altura",
+      "year": "2009",
+      "director": "Pete Docter",
+      "type": "Animada",
+      "picture": "./img/up.jpg"
+      
+    }
+  ]

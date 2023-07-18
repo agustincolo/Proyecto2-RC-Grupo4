@@ -6,73 +6,37 @@
 }
 
 body{
-    display: block;
     padding: 0 35px;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
     background: radial-gradient(at center, #30112a, #1d072b, #160541, #040146);
 }
 
-.wrapper .carrousel{
-    font-size: 0px;
-    cursor: pointer;
-    overflow: hidden;
-    white-space: nowrap;
-    scroll-behavior: smooth;
-    margin-bottom: 50px;
-    margin-top: 50px;
+.carousel-inner-slider{
+    display: flex;
 }
 
-.carrousel.dragging{
-    cursor: grab;
-    scroll-behavior: auto;
+.foto{
+    width: 100%;
+    height: 500px;
 }
 
-.carrousel.dragging img{
-    pointer-events: none;
+.cards-wrapper{
+    display: flex;
+    margin-top: 10px;
+    padding-left: 30px;
 }
 
-.wrapper{
-    max-width: 1200px;
-    position: relative;
+.carousel-innerr{
+    display: flex;
 }
 
-.wrapper i{
-    top: 50%;
-    height: 46px;
-    width: 46px;
-    cursor: pointer;
-    position: absolute;
-    font-size: 1.2rem;
-    text-align: center;
-    line-height: 46px;
-    background: transparent;
-    backdrop-filter: blur(70px);
-    border-radius: 50%;
-    transform: translateY(-50%);
+.carousel-innerrr{
+    display: flex;
 }
 
-.wrapper i:first-child{
-    left: -20px;
-    display: none;
-}
-
-.wrapper i:last-child{
-    right: -20px;
-}
-
-.carrousel img{
-    height: 340px;
-    object-fit: cover;
-    border-radius: 1%;
-    margin-left: 10px;
-    margin-top: 70px; 
-    width: calc(100% / 4);
-}
-
-.carrousel img:first-child{
-    margin-left: 0px;
+.carousel-innerrrr{
+    display: flex;
 }
 
 .logIn {
