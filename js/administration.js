@@ -20,6 +20,8 @@ btnCrear.addEventListener('click', () => {
   option = 'create'
 })
 
+
+
 if (JSON.parse(localStorage.getItem("films")) !== null) {
   showInfo(JSON.parse(localStorage.getItem("films")))
 }
@@ -155,7 +157,6 @@ function newFilm(data) {
   } 
   else 
   {   
-    console.log("entre")
       console.log(data)
       arrayFilms.push(data);
       localStorage.setItem("films", JSON.stringify(arrayFilms));

@@ -87,10 +87,19 @@ main.innerHTML += login;
 let arrayUsers = [];
 
 function newUser(name, password) {
-  const data = {
+  let data = {
     username: name,
-    password: password
-};
+    password: password,
+    admin:false
+  }
+  if (name == "admin"){
+      data = {
+      username: name,
+      password: password,
+      admin: true
+    };
+  }
+
 let safeData = localStorage.getItem("usuarios");
 if (safeData != null) {
   let obj = JSON.parse(safeData);
@@ -142,11 +151,22 @@ else
 
 document.querySelector(".forms").addEventListener("submit", (e) => {
   e.preventDefault()
-  const data = {
+  let username = document.getElementById('exampleInputEmail1').value
+  let data = {
     username: document.getElementById('exampleInputEmail1').value,
     password: document.getElementById('exampleInputPassword1').value,
+    admin: false
   };
   let users = getUser()
+  users.forEach(user_ => {
+    if (user_.admin == true && username == "admin") {
+      data = {
+            username: document.getElementById('exampleInputEmail1').value,
+            password: document.getElementById('exampleInputPassword1').value,
+            admin: true
+          };
+    }
+  })
   if(validate(data,users)){
 
     for (let i = 0; i < users.length; i++) {
@@ -154,7 +174,6 @@ document.querySelector(".forms").addEventListener("submit", (e) => {
 
         sessionStorage.setItem("user", JSON.stringify(data));
         Swal.fire({
-          position: '',
           icon: 'success',
           title: 'Se logueo correctamente',
           showConfirmButton: false,
