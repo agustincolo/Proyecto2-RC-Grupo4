@@ -8,67 +8,67 @@
       "picture": "./img/barbie.jpg"
     },
     {
-      "id": 14,
-      "name": "Indiana Jones",
-      "year": "1981",
-      "director": "Steven Spielberg",
+      "id": 24,
+      "name": "Footlose",
+      "year": "1984",
+      "director": "Herbert Ross",
       "type": "Romance",
-      "picture" : "./img/indiana jones.jpg"
+      "picture" : "./img/footlose.jpg"
     },
     {
-      "id": 15,
-      "name": "John Wick 4",
-      "year": "2023",
-      "director": "Chad Stahelski",
+      "id": 25,
+      "name": "Mamma mia",
+      "year": "2008",
+      "director": "Phyllida Lloyd",
       "type": "Romance",
-      "picture" : "./img/jhon wick.jpg"
+      "picture" : "./img/Mamma mia.jpg"
     },
     {
-      "id": 16,
-      "name": "Transformers",
-      "year": "2007",
-      "director": "Michael Bay",
+      "id": 26,
+      "name": "Diario de una Pasion",
+      "year": "2004",
+      "director": "Nick Cassavetes",
       "type": "Romance",
-      "picture" : "./img/transformers.jpg"
+      "picture" : "./img/the notebook.jpg"
     },
     {
-      "id": 17,
-      "name": "Uncharted",
-      "year": "2022",
-      "director": "Ruben Fleischer",
+      "id": 27,
+      "name": "Una esposa de mentira",
+      "year": "2011",
+      "director": "Dennis Dugan",
       "type": "Romance",
-      "picture" : "./img/uncharted.jpg"
+      "picture" : "./img/una esposa de mentira.jpg"
     },
     {
-      "id": 18,
-      "name": "Top Gun",
-      "year": "2022",
-      "director": "Joseph Kosinski",
+      "id": 28,
+      "name": "Como perder a un hombre en diez dias",
+      "year": "2003",
+      "director": "Donald Petrie",
       "type": "Romance",
-      "picture" : "./img/top gun.jpg"
+      "picture" : "./img/como perder a un hombre en diez dias.jpg"
     },
     {
-      "id": 19,
-      "name": "Moonfall",
-      "year": "2022",
-      "director": "Roland Emmerich",
+      "id": 29,
+      "name": "Yo antes de ti",
+      "year": "2016",
+      "director": "Thea Sharrock",
       "type": "Romance",
-      "picture" : "./img/moonfall.jpg"
+      "picture" : "./img/yo antes de ti.jpg"
     },
     {
-      "id": 20,
-      "name": "Avatar 2",
-      "year": "2022",
-      "director": "James Cameron",
+      "id": 30,
+      "name": "La la land",
+      "year": "2016",
+      "director": "Damien Chazelle",
       "type": "Romance",
-      "picture" : "./img/avatar.jpg"
+      "picture" : "./img/lalaland.jpg"
     },
     {
-      "id": 21,
-      "name": "El llanero Solitario",
-      "year": "2013",
-      "director": "NGore Verbinski",
+      "id": 31,
+      "name": "Nace una estrella",
+      "year": "2018",
+      "director": "Bradley Cooper",
       "type": "Romance",
-      "picture" : "./img/el llanero solitario.jpg"
+      "picture" : "./img/nace una estrella.jpg"
     }
   ]

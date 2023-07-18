@@ -1,0 +1,74 @@
+[
+    {
+      "id": 23,
+      "name": "Barbie",
+      "year": "2023",
+      "director": "Greta Gerwig",
+      "type": "Ciencia Ficcion",
+      "picture": "./img/barbie.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Footlose",
+      "year": "1984",
+      "director": "Herbert Ross",
+      "type": "Ciencia Ficcion",
+      "picture" : "./img/footlose.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Mamma mia",
+      "year": "2008",
+      "director": "Phyllida Lloyd",
+      "type": "Ciencia Ficcion",
+      "picture" : "./img/Mamma mia.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Diario de una Pasion",
+      "year": "2004",
+      "director": "Nick Cassavetes",
+      "type": "Ciencia Ficcion",
+      "picture" : "./img/the notebook.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Una esposa de mentira",
+      "year": "2011",
+      "director": "Dennis Dugan",
+      "type": "Ciencia Ficcion",
+      "picture" : "./img/una esposa de mentira.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Como perder a un hombre en diez dias",
+      "year": "2003",
+      "director": "Donald Petrie",
+      "type": "Ciencia Ficcion",
+      "picture" : "./img/como perder a un hombre en diez dias.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Yo antes de ti",
+      "year": "2016",
+      "director": "Thea Sharrock",
+      "type": "Ciencia Ficcion",
+      "picture" : "./img/yo antes de ti.jpg"
+    },
+    {
+      "id": 30,
+      "name": "La la land",
+      "year": "2016",
+      "director": "Damien Chazelle",
+      "type": "Ciencia Ficcion",
+      "picture" : "./img/lalaland.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Nace una estrella",
+      "year": "2018",
+      "director": "Bradley Cooper",
+      "type": "Ciencia Ficcion",
+      "picture" : "./img/nace una estrella.jpg"
+    }
+  ]
