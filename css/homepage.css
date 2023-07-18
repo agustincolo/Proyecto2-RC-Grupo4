@@ -23,12 +23,18 @@ body{
 
 .cards-wrapper{
     display: flex;
-    margin-top: 10px;
+    margin-top: 10px;    
     padding-left: 30px;
+    margin-bottom: 40px;
+}
+
+.card{
+    margin-right: 30px;
 }
 
 .carousel-innerr{
     display: flex;
+
 }
 
 .carousel-innerrr{

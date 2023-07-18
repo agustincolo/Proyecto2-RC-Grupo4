@@ -25,11 +25,11 @@
     },
     {
       "id": 35,
-      "name": "Megalodon",
+      "name": "Insurgente",
       "year": "2018",
       "director": "Jon Turteltaub",
       "type": "Ciencia Ficcion",
-      "picture" : "./img/megalodon.jpg"
+      "picture" : "./img/divergente.jpg"
     },
     {
       "id": 36,
@@ -41,11 +41,11 @@
     },
     {
       "id": 37,
-      "name": "Megan",
-      "year": "2023",
-      "director": "Gerard Johnstone",
+      "name": "La Huerfana",
+      "year": "2022",
+      "director": "William Brent Bell",
       "type": "Ciencia Ficcion",
-      "picture" : "./img/megan.jpg"
+      "picture" : "./img/evil dead rise.jpg"
     },
     {
       "id": 38,
