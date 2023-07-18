@@ -5,11 +5,6 @@
     font-family: 'Lato', sans-serif;
 }
 
-:root {
-	--rojo: #E50914;
-	--fondo: #141414;
-}
-
 * {
 	margin: 0;
 	padding: 0;
