@@ -1,74 +1,74 @@
 [
     {
-      "id": 23,
-      "name": "Barbie",
+      "id": 32,
+      "name": "No te preocupes cariño",
       "year": "2023",
-      "director": "Greta Gerwig",
+      "director": "Olivia Ward",
       "type": "Ciencia Ficcion",
-      "picture": "./img/barbie.jpg"
+      "picture": "./img/dont worry darling.jpg"
     },
     {
-      "id": 24,
-      "name": "Footlose",
-      "year": "1984",
-      "director": "Herbert Ross",
+      "id": 33,
+      "name": "Jurassic World",
+      "year": "2015",
+      "director": "Colin Trevorrow",
       "type": "Ciencia Ficcion",
-      "picture" : "./img/footlose.jpg"
+      "picture" : "./img/jurassic world.jpg"
     },
     {
-      "id": 25,
-      "name": "Mamma mia",
-      "year": "2008",
-      "director": "Phyllida Lloyd",
+      "id": 34,
+      "name": "Los juegos del hambre",
+      "year": "2012",
+      "director": "Francis Lawrence, Gary Ross",
       "type": "Ciencia Ficcion",
-      "picture" : "./img/Mamma mia.jpg"
+      "picture" : "./img/los juegos del hambre.jpg"
     },
     {
-      "id": 26,
-      "name": "Diario de una Pasion",
-      "year": "2004",
-      "director": "Nick Cassavetes",
-      "type": "Ciencia Ficcion",
-      "picture" : "./img/the notebook.jpg"
-    },
-    {
-      "id": 27,
-      "name": "Una esposa de mentira",
-      "year": "2011",
-      "director": "Dennis Dugan",
-      "type": "Ciencia Ficcion",
-      "picture" : "./img/una esposa de mentira.jpg"
-    },
-    {
-      "id": 28,
-      "name": "Como perder a un hombre en diez dias",
-      "year": "2003",
-      "director": "Donald Petrie",
-      "type": "Ciencia Ficcion",
-      "picture" : "./img/como perder a un hombre en diez dias.jpg"
-    },
-    {
-      "id": 29,
-      "name": "Yo antes de ti",
-      "year": "2016",
-      "director": "Thea Sharrock",
-      "type": "Ciencia Ficcion",
-      "picture" : "./img/yo antes de ti.jpg"
-    },
-    {
-      "id": 30,
-      "name": "La la land",
-      "year": "2016",
-      "director": "Damien Chazelle",
-      "type": "Ciencia Ficcion",
-      "picture" : "./img/lalaland.jpg"
-    },
-    {
-      "id": 31,
-      "name": "Nace una estrella",
+      "id": 35,
+      "name": "Megalodon",
       "year": "2018",
-      "director": "Bradley Cooper",
+      "director": "Jon Turteltaub",
       "type": "Ciencia Ficcion",
-      "picture" : "./img/nace una estrella.jpg"
+      "picture" : "./img/megalodon.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Venom",
+      "year": "2018",
+      "director": "Andy Serkis, Ruben Fleischer",
+      "type": "Ciencia Ficcion",
+      "picture" : "./img/venom.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Megan",
+      "year": "2023",
+      "director": "Gerard Johnstone",
+      "type": "Ciencia Ficcion",
+      "picture" : "./img/megan.jpg"
+    },
+    {
+      "id": 38,
+      "name": "¡Nop!",
+      "year": "2022",
+      "director": "Jordan Peele",
+      "type": "Ciencia Ficcion",
+      "picture" : "./img/nop.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Un lugar en silencio: parte dos",
+      "year": "2023",
+      "director": "John Krasinski",
+      "type": "Ciencia Ficcion",
+      "picture" : "./img/un lugar en silencio.jpg"
+    },
+    {
+      "id": 40,
+      "name": "El hoyo",
+      "year": "2019",
+      "director": "Galder Gaztelu-Urrutia",
+      "type": "Ciencia Ficcion",
+      "picture" : "./img/el hoyo.jpg"
     }
   ]
