@@ -118,6 +118,32 @@ button {
     }
 
 }
+@media only screen and (min-width: 320) and (max-width: 538px) {
+    .carousel-inner-slider .carousel-item{
+        width: 100%;
+        height: 50%;
+        object-fit: cover;
+    }
+
+    .description_film{
+        font-size: 90%;
+        display: flex;
+        justify-content: center;
+        object-fit: cover;
+    }
+
+    .title_film{
+        font-size: smaller;
+        padding: 30px;
+    }
+
+    h2, h3{
+        font-size: x-small;
+    }
+}
+
+
+
 .logIn {
     font-size: 1.2rem !important;
 }
