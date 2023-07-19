@@ -45,6 +45,36 @@ body{
     display: flex;
 }
 
+.title{
+    position: relative;
+    color: aliceblue;
+    font-family: 'Lato', sans-serif;
+    padding-left: 30px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.subtitle{
+    position: relative;
+    color: aliceblue;
+    font-family: 'Lato', sans-serif;
+    padding-left: 30px;
+    font-size: x-large;
+
+}
+
+
+@media screen and (max-width: 900px){
+    .title .subtitle{
+        width: 10%;
+        height: 10%;
+    }
+    .card{
+        width: 30%;   
+        height: 30%;
+    }
+
+}
 .logIn {
     font-size: 1.2rem !important;
 }

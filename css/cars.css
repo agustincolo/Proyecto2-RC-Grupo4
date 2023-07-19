@@ -5,53 +5,16 @@
     font-family: 'Lato', sans-serif;
 }
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
 body {
 	background: var(--fondo);
 	font-family: 'Open Sans', sans-serif;
 	background: radial-gradient(at center, #30112a, #1d072b, #160541, #040146);
 }
 
-main{
-    margin-top: 0;
-}
 
 .container {
 	width: 90%;
 	margin: auto;
-}
-
-header {
-	padding: 30px 0;
-}
-
-header .container {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-}
-
-header .logotipo {
-	font-family: 'Bebas Neue', cursive;
-	font-weight: normal;
-	color: var(--rojo);
-	font-size: 40px;
-}
-
-header nav a {
-	color: #AAA;
-	text-decoration: none;
-	margin-right: 20px;
-}
-
-header nav a:hover,
-header nav a.active {
-	color: #FFF;
 }
 
 .main-movie {
@@ -108,15 +71,6 @@ header nav a.active {
 
 
 @media screen and (max-width: 800px) {
-	header .logotipo {
-		margin-bottom: 10px;
-		font-size: 30px;
-	}
-
-	header .container {
-		flex-direction: column;
-		text-align: center;
-	}
 
 	.main-movie {
 		font-size: 14px;
@@ -126,8 +80,6 @@ header nav a.active {
 		max-width: 100%;
 	}
 }
-
-
 
 
 .logIn {
