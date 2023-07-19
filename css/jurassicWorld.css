@@ -101,6 +101,12 @@ body {
     background-color: #000000;
 }
 
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
 @media screen and (max-width: 900px){
     .carrousel img{
         width: calc(100% / 2);

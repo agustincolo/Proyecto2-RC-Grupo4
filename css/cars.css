@@ -91,6 +91,12 @@ body {
     margin-left: 4%!important;
 }
 
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
 ::-webkit-scrollbar {
     width: 7px;
   }

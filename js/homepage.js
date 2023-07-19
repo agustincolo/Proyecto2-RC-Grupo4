@@ -19,7 +19,10 @@ function slider (flick) {
       result += `
       <div class="carousel-item ${activeClass}">
         <img src="${pic.picture}" class="foto" alt="...">
-        <h2 class="texto_aside"><b>${pic.name}</b></h2>
+        <h2 class="title_film"><b>${pic.name}</b></h2>
+		<p class="description_film">
+            ${pic.descripcion}
+		</p>
       </div>`
     })
     container.innerHTML = result;

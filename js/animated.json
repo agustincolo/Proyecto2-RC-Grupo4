@@ -33,7 +33,7 @@
       "director": " Rob Minkoff",
       "type": "Animada",
       "picture" : "./img/lasirenita.jpg",
-      "url": "./paginas/error.html"
+      "url": "./paginas/laSirenita.html"
     },
     {
       "id": 7,
@@ -51,7 +51,7 @@
       "director": "Tom McGrath, Eric Darnell",
       "type": "Animada",
       "picture" : "./img/madagascar.jpg",
-      "url": "./paginas/error.html"
+      "url": "./paginas/madagascar.html"
     },
     {
       "id": 9,

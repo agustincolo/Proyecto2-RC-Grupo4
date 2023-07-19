@@ -6,6 +6,7 @@
       "director": "Bryan Singer",
       "type": "Acción",
       "picture": "./img/xmen.jpg",
+      "descripcion" : "Los X-Men unen fuerzas con sus versiones más jóvenes con el fin de cambiar el pasado y salvar su futuro y el de la humanidad.",
       "url": "./paginas/error.html"
     },
     {
@@ -15,15 +16,17 @@
       "director": "Zack Snyder",
       "type": "Accion",
       "picture": "./img/300.jpg",
+      "descripcion" : "Segunda Guerra Médica. El general ateniense Temístocles intenta unir a las ciudades-estado griegas para poder derrotar a las poderosas fuerzas invasoras persas, guiadas por el rey Jerjes y por Artemisia, la vengativa comandante de la armada persa.",
       "url": "./paginas/error.html"
     },
     {
       "id": 3,
-      "name": "up: una aventura de altura",
+      "name": "UP: una aventura de altura",
       "year": "2009",
       "director": "Pete Docter",
       "type": "Animada",
       "picture": "./img/up.jpg",
+      "descripcion" : "Carl Fredricksen es un vendedor de globos de 78 años de edad dispuesto a cumplir su sueño: atar miles de globos a su casa y volar a Sudamérica. Sin embargo, descubre demasiado tarde a un joven e inesperado polizón. ",
       "url": "./paginas/error.html"
       
     }
