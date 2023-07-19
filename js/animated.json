@@ -14,7 +14,8 @@
       "year": "2014",
       "director": "Jennifer Lee, Chris Buck",
       "type": "Animada",
-      "picture" : "./img/Frozen.jpg"
+      "picture" : "./img/Frozen.jpg",
+      "url": "./paginas/error.html"
     },
     {
       "id": 6,
@@ -22,7 +23,8 @@
       "year": "2023",
       "director": "Joel Crawford",
       "type": "Animada",
-      "picture" : "./img/el gato con botas.jpg"
+      "picture" : "./img/el gato con botas.jpg",
+      "url": "./paginas/error.html"
     },
     {
       "id": 6,
@@ -30,7 +32,8 @@
       "year": "1989",
       "director": " Rob Minkoff",
       "type": "Animada",
-      "picture" : "./img/lasirenita.jpg"
+      "picture" : "./img/lasirenita.jpg",
+      "url": "./paginas/error.html"
     },
     {
       "id": 7,
@@ -38,7 +41,8 @@
       "year": "2007",
       "director": "Brad Bird",
       "type": "Animada",
-      "picture" : "./img/ratatouille.jpg"
+      "picture" : "./img/ratatouille.jpg",
+      "url": "./paginas/error.html"
     },
     {
       "id": 8,
@@ -46,7 +50,8 @@
       "year": "2005",
       "director": "Tom McGrath, Eric Darnell",
       "type": "Animada",
-      "picture" : "./img/madagascar.jpg"
+      "picture" : "./img/madagascar.jpg",
+      "url": "./paginas/error.html"
     },
     {
       "id": 9,
@@ -54,7 +59,8 @@
       "year": "2001",
       "director": " Pete Docter",
       "type": "Animada",
-      "picture" : "./img/monsterInc.jpg"
+      "picture" : "./img/monsterInc.jpg",
+      "url": "./paginas/error.html"
     },
     {
       "id": 10,
@@ -62,7 +68,8 @@
       "year": "2007",
       "director": "Chris Miller",
       "type": "Animada",
-      "picture" : "./img/shreck 3.jpg"
+      "picture" : "./img/shreck 3.jpg",
+      "url": "./paginas/error.html"
     },
     {
       "id": 11,
@@ -70,7 +77,8 @@
       "year": "2023",
       "director": "Joel Crawford",
       "type": "Animada",
-      "picture" : "./img/el gato con botas.jpg"
+      "picture" : "./img/el gato con botas.jpg",
+      "url": "./paginas/error.html"
     },
     {
       "id": 12,
@@ -78,6 +86,7 @@
       "year": "2011",
       "director": "Nathan Greno, Byron Howard",
       "type": "Animada",
-      "picture" : "./img/enredados.jpg"
+      "picture" : "./img/enredados.jpg",
+      "url": "./paginas/error.html"
     }
   ]

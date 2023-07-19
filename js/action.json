@@ -5,7 +5,8 @@
       "year": "2019",
       "director": "Anthony Russo, Joe Russo",
       "type": "Accion",
-      "picture": "./img/end game.jpg"
+      "picture": "./img/end game.jpg",
+      "url": "./paginas/error.html"
     },
     {
       "id": 14,
@@ -13,7 +14,8 @@
       "year": "1981",
       "director": "Steven Spielberg",
       "type": "Accion",
-      "picture" : "./img/indiana jones.jpg"
+      "picture" : "./img/indiana jones.jpg",
+      "url": "./paginas/error.html"
     },
     {
       "id": 15,
@@ -21,7 +23,8 @@
       "year": "2023",
       "director": "Chad Stahelski",
       "type": "Accion",
-      "picture" : "./img/jhon wick.jpg"
+      "picture" : "./img/jhon wick.jpg",
+      "url": "./paginas/error.html"
     },
     {
       "id": 16,
@@ -29,7 +32,8 @@
       "year": "2007",
       "director": "Michael Bay",
       "type": "Accion",
-      "picture" : "./img/transformers.jpg"
+      "picture" : "./img/transformers.jpg",
+      "url": "./paginas/error.html"
     },
     {
       "id": 17,
@@ -37,7 +41,8 @@
       "year": "2022",
       "director": "Ruben Fleischer",
       "type": "Accion",
-      "picture" : "./img/uncharted.jpg"
+      "picture" : "./img/uncharted.jpg",
+      "url": "./paginas/error.html"
     },
     {
       "id": 18,
@@ -45,7 +50,8 @@
       "year": "2022",
       "director": "Joseph Kosinski",
       "type": "Accion",
-      "picture" : "./img/top gun.jpg"
+      "picture" : "./img/top gun.jpg",
+      "url": "./paginas/error.html"
     },
     {
       "id": 19,
@@ -53,7 +59,8 @@
       "year": "2022",
       "director": "Roland Emmerich",
       "type": "Accion",
-      "picture" : "./img/moonfall.jpg"
+      "picture" : "./img/moonfall.jpg",
+      "url": "./paginas/error.html"
     },
     {
       "id": 20,
@@ -61,7 +68,8 @@
       "year": "2022",
       "director": "James Cameron",
       "type": "Accion",
-      "picture" : "./img/avatar.jpg"
+      "picture" : "./img/avatar.jpg",
+      "url": "./paginas/error.html"
     },
     {
       "id": 21,
@@ -69,6 +77,7 @@
       "year": "2013",
       "director": "NGore Verbinski",
       "type": "Accion",
-      "picture" : "./img/el llanero solitario.jpg"
+      "picture" : "./img/el llanero solitario.jpg",
+      "url": "./paginas/error.html"
     }
   ]

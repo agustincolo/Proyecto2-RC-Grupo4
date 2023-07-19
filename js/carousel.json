@@ -5,7 +5,8 @@
       "year": "2014",
       "director": "Bryan Singer",
       "type": "Acción",
-      "picture": "./img/xmen.jpg"
+      "picture": "./img/xmen.jpg",
+      "url": "./paginas/error.html"
     },
     {
       "id": 2,
@@ -13,7 +14,8 @@
       "year": "2009",
       "director": "Zack Snyder",
       "type": "Accion",
-      "picture": "./img/300.jpg"
+      "picture": "./img/300.jpg",
+      "url": "./paginas/error.html"
     },
     {
       "id": 3,
@@ -21,7 +23,8 @@
       "year": "2009",
       "director": "Pete Docter",
       "type": "Animada",
-      "picture": "./img/up.jpg"
+      "picture": "./img/up.jpg",
+      "url": "./paginas/error.html"
       
     }
   ]

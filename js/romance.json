@@ -5,7 +5,8 @@
       "year": "2023",
       "director": "Greta Gerwig",
       "type": "Romance",
-      "picture": "./img/barbie.jpg"
+      "picture": "./img/barbie.jpg",
+      "url": "./paginas/error.html"
     },
     {
       "id": 24,
@@ -13,7 +14,8 @@
       "year": "1984",
       "director": "Herbert Ross",
       "type": "Romance",
-      "picture" : "./img/footlose.jpg"
+      "picture" : "./img/footlose.jpg",
+      "url": "./paginas/error.html"
     },
     {
       "id": 25,
@@ -21,7 +23,8 @@
       "year": "2008",
       "director": "Phyllida Lloyd",
       "type": "Romance",
-      "picture" : "./img/Mamma mia.jpg"
+      "picture" : "./img/Mamma mia.jpg",
+      "url": "./paginas/mammamia.html"
     },
     {
       "id": 26,
@@ -29,7 +32,8 @@
       "year": "2004",
       "director": "Nick Cassavetes",
       "type": "Romance",
-      "picture" : "./img/the notebook.jpg"
+      "picture" : "./img/the notebook.jpg",
+      "url": "./paginas/error.html"
     },
     {
       "id": 27,
@@ -37,7 +41,8 @@
       "year": "2011",
       "director": "Dennis Dugan",
       "type": "Romance",
-      "picture" : "./img/una esposa de mentira.jpg"
+      "picture" : "./img/una esposa de mentira.jpg",
+      "url": "./paginas/error.html"
     },
     {
       "id": 28,
@@ -45,7 +50,8 @@
       "year": "2003",
       "director": "Donald Petrie",
       "type": "Romance",
-      "picture" : "./img/como perder a un hombre en 10 dias.jpg"
+      "picture" : "./img/como perder a un hombre en 10 dias.jpg",
+      "url": "./paginas/error.html"
     },
     {
       "id": 29,
@@ -53,7 +59,8 @@
       "year": "2016",
       "director": "Thea Sharrock",
       "type": "Romance",
-      "picture" : "./img/yo antes de ti.jpg"
+      "picture" : "./img/yo antes de ti.jpg",
+      "url": "./paginas/error.html"
     },
     {
       "id": 30,
@@ -61,7 +68,8 @@
       "year": "2016",
       "director": "Damien Chazelle",
       "type": "Romance",
-      "picture" : "./img/lalaland.jpg"
+      "picture" : "./img/lalaland.jpg",
+      "url": "./paginas/error.html"
     },
     {
       "id": 31,
@@ -69,6 +77,7 @@
       "year": "2018",
       "director": "Bradley Cooper",
       "type": "Romance",
-      "picture" : "./img/nace una estrella.jpg"
+      "picture" : "./img/nace una estrella.jpg",
+      "url": "./paginas/error.html"
     }
   ]
