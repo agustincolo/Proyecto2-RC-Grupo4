@@ -118,6 +118,7 @@ button {
     }
 
 }
+
 @media only screen and (min-width: 0) and (max-width: 375px) {
     .carousel-inner-slider .carousel-item{
         width: 100%;
@@ -140,9 +141,6 @@ button {
         object-fit: cover;
     }
 
-    .card img:not(:first-child){
-        display: none;
-    }
 }
 
 
