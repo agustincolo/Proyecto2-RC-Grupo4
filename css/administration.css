@@ -31,7 +31,7 @@ td, th {
 
 .star {
     background: transparent !important;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(35px);
     /* border: 2px solid rgb(140, 0, 255) !important; */
     border: 2px solid rgb(255, 255, 255) !important;
 }
@@ -51,7 +51,7 @@ td, th {
 }
 
 footer {
-    position: absolute;
+    position: relative;
     width: 100%;
     bottom: 0;
 }
@@ -64,8 +64,19 @@ footer {
     margin-top: 6%;
 }
 
+::-webkit-scrollbar {
+    width: 7px;
+  }
+::-webkit-scrollbar-thumb {
+    background-color: #333;
+}
+::-webkit-scrollbar-track {
+    background-color: #000000;
+}
+
 @media screen and (min-width: 100px) and (max-width:800px){
     footer{
+        position: relative;
         width: 100%;
     }
     .nav {
