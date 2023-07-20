@@ -185,3 +185,15 @@ button {
 }
 
 
+@media screen and (min-width: 1500px) and (max-width:1980px) {
+    .cards-wrapper{
+        display: flex;
+        justify-content: center;
+    }
+
+    h2, h3 {
+        display: flex;
+        justify-content: center;
+    }
+
+}

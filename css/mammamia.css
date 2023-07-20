@@ -119,9 +119,8 @@ footer {
         font-size: 1rem !important;
     }
 	footer {
-		position: relative;
 		width: 100%;
-		bottom: 0;
+
 	}
 }
 
