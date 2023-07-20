@@ -129,6 +129,7 @@ button {
     .description_film{
         font-size: 90%;
         object-fit: cover;
+        max-width: 120%;
     }
 
     .title_film{
@@ -139,6 +140,10 @@ button {
     h2, h3{
         font-size: 40%;
         object-fit: cover;
+    }
+    .card a {
+        width: 170%;
+
     }
 
 }
@@ -173,6 +178,15 @@ button {
     }
     .logIn {
         font-size: 1rem !important;
+    }
+    .description_film{
+        font-size: 90%;
+        object-fit: cover;
+        max-width: 120%;
+    }
+    .title_film{
+        font-size: 130%;
+        margin-bottom: 10%;
     }
 }
 
